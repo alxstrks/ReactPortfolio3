@@ -8,7 +8,7 @@ export default function NavBarSection() {
     ]
 
     return (
-    <div className="py-5 hidden md:block">
+    <div className="py-5 hidden lg:block">
         <div className="flex justify-between">
             <div className="text-white font-normal text-4xl"><p><strong>Elon</strong> Musk</p></div>
             <div className="flex space-x-12">

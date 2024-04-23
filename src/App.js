@@ -9,15 +9,15 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="px-5 lg:px-44 bg-gradient-to-r from-zinc-900 to-black">
+    <div className="px-5 bg-gradient-to-r from-zinc-900 to-black">
       <NavBarSection />
-      <div>
+      <div className="lg:px-36">
         <Home />
         <About />
         <Work />
         <Contact />
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

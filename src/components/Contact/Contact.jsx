@@ -5,10 +5,10 @@ export default function Contact() {
             <h1 className="text-6xl">contact</h1>
             <div className="border-t-4 border-secondary w-full"></div>
         </div>
-        <p className="text-white lg:px-44 py-12 text-lg">
+        <p className="text-white xl:px-44 py-12 text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nam recusandae dignissimos quae, perferendis qui officiis nihil deleniti magni aut eligendi doloribus neque repellat nobis perspiciatis labore laborum, est provident.
         </p>
-        <form className="text-white px-12 lg:px-64">
+        <form className="text-white xl:px-44">
             <label htmlFor="name">Name</label><br/>
             <input className="bg-black border-b-2 border-white w-[90%]" type="text" id="name" name="name" /><br/><br/>
             <label htmlFor="email">Email</label><br/>
